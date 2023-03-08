@@ -18,7 +18,8 @@ Kısaca PHP kodları kontrolcüler(Controllers), HTML içerikleri ise görünüm
 ```shell
 Projects/Frontend/Controllers/Home.php
 ```
-<?php
+
+```php
 namespace Project/Controllers
 
 class Home extends Controller
@@ -28,7 +29,7 @@ class Home extends Controller
         Masterpage::title('Home');
     }
 }
-?>
+```
 
 ### HTML
 
