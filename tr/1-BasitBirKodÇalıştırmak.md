@@ -64,7 +64,7 @@ localhost/Home/main
 > **Note**
 > Ön tanımlı olarak Home kontrolcüsü ve bu kontrolcüye bağlı `Home/main` yöntemi ayarlı olduğundan adres çubuğunda belirtilmesine gerek yoktur.
 
-> **Critical**
+> **Warning**
 > Kontrolcü ile görünümü bağlamak için Kontrolcünün adı ve yöntemi ile aynı isme sahip görünüm dizini ve sayfası oluşturulması gerekir. 
 > `Home` kontrolcüsünün `main` yöntemi bir görünüme otomatik olarak erişecekse görünüm `Views/Home/main.wizard.php` gibi bir dosya içermek zorundadır.
 > Görüldüğü üzere `Home::main -> Home/main.wizard.php` ilişkisi kurulmuştur.
