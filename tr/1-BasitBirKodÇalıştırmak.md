@@ -97,6 +97,6 @@ Erişmek için aşağıdaki bağlantıyı kullanın.
 localhost/Contact
 ```
 
-> **Bilgi**
+> **Note**
 > Bir kontrolcünün ön tanımlı açlış yöntemi <b>main</b> olmasından dolayı adres çubuğunda belirtilmesine gerek yoktur.
 
