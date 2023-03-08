@@ -7,17 +7,17 @@
     - [Erişim](#php-ve-html-iliskisi-erisim)
     - [Farklı Bir Sayfa Oluşturun](#php-ve-html-iliskisi-farkli-bir-sayfa-olusturun)
 
-<a name="giris"></a>
-## Giriş
+
+## Giriş <a name="giris"></a>
 
 ZN Framework ilk çalıştırıldığında Ulu Önderimizin "Hayata en hakiki mürşit ilimdir." yazısı karşılamaktadır. ZN Framework üzerinde web sayfaları oluşturmak ve erişmek oldukça kolaydır. En temel olarak üzerinde çalıştığımız sayfalara ait PHP ve HTML içerikler iki ayrı dosya bulunur. Aşağıda bu iki tür dosyaların hangi dizinlerde yer alacağı ve arasında nasıl iletişim kurulacağı anlatılmıştır.
 
-<a name="php-ve-html-iliskisi"></a>
-## PHP ve HTML İlişkisi
+
+## PHP ve HTML İlişkisi <a name="php-ve-html-iliskisi"></a>
 
 Kısaca PHP kodları kontrolcüler(Controllers), HTML içerikleri ise görünümlerde(Views) yer alırlar. Aşağıda örnek bir kontrolcü ve görünüm örneklerine yer verilmiştir.
-<a name="php-ve-html-iliskisi-php"></a>
-### PHP
+
+### PHP <a name="php-ve-html-iliskisi-php"></a>
 
 ```shell
 Projects/Frontend/Controllers/Home.php
@@ -34,8 +34,8 @@ class Home extends Controller
     }
 }
 ```
-<a name="php-ve-html-iliskisi-html"></a>
-### HTML
+
+### HTML <a name="php-ve-html-iliskisi-html"></a>
 
 ```shell
 Projects/Frontend/Views/Home/main.wizard.php
@@ -44,6 +44,11 @@ Projects/Frontend/Views/Home/main.wizard.php
 ```html
 <strong>Home Page</strong>
 ```
+
+> **Note**
+> Kontrolcü ile görünümü bağlamak için Kontrolcünün adı ve yöntemi ile aynı isme sahip görünüm dizini ve sayfası oluşturuması gerekir. 
+> Home kontrolcüsünün main yöntemi bir görünüme otomatik olarak erişecekse görünüm Views/Home/main.wizard.php gibi bir dosya içermek zorundadır.
+> Görüldüğü üzere <u>Home::main -> Home/main.wizard.php</u> ilişkisi kurulmuştur.
  
 ### Erişim <a name="php-ve-html-iliskisi-erisim"></a>
 
@@ -62,8 +67,8 @@ localhost/Home/main
 ```
 
 Ön tanımlı olarak Home kontrolcüsü ve bu kontrolcüye bağlı Home/main yöntemi ayarlı olduğundan adres çubuğunda belirtilmesine gerek yoktur.
-<a name="php-ve-html-iliskisi-farkli-bir-sayfa-olusturun"></a>
-### Farklı Bir Sayfa Oluşturun
+
+### Farklı Bir Sayfa Oluşturun <a name="php-ve-html-iliskisi-farkli-bir-sayfa-olusturun"></a>
 
 Bu sefer iletişim(Contact) isimli bir kontrolcü ve onun çağıracağı bir görünüm tasarlayalım.
 
