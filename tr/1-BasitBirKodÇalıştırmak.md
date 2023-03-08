@@ -44,8 +44,8 @@ Projects/Frontend/Views/Home/main.wizard.php
 ```html
 <strong>Home Page</strong>
 ```
-<a name="php-ve-html-iliskisi-erisim"></a>
-### Erişim
+ 
+### Erişim <a name="php-ve-html-iliskisi-erisim"></a>
 
 ZN Framework ilk olarak adres çubuğunda çalıştırıldığında ki bunun localhost olduğunu varsayarsak ön tanımlı açlış kontrolcüsü Home.php ve bu kontrolcünün çağırdığı Home/main.wizard.php görünümüdür. 
 
