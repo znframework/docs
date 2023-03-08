@@ -46,9 +46,9 @@ Projects/Frontend/Views/Home/main.wizard.php
 ```
 
 > **Note**
-> Kontrolcü ile görünümü bağlamak için Kontrolcünün adı ve yöntemi ile aynı isme sahip görünüm dizini ve sayfası oluşturuması gerekir. 
-> Home kontrolcüsünün main yöntemi bir görünüme otomatik olarak erişecekse görünüm Views/Home/main.wizard.php gibi bir dosya içermek zorundadır.
-> Görüldüğü üzere <u>Home::main -> Home/main.wizard.php</u> ilişkisi kurulmuştur.
+> Kontrolcü ile görünümü bağlamak için Kontrolcünün adı ve yöntemi ile aynı isme sahip görünüm dizini ve sayfası oluşturulması gerekir. 
+> `Home` kontrolcüsünün `main` yöntemi bir görünüme otomatik olarak erişecekse görünüm `Views/Home/main.wizard.php` gibi bir dosya içermek zorundadır.
+> Görüldüğü üzere `Home::main -> Home/main.wizard.php` ilişkisi kurulmuştur.
  
 ### Erişim <a name="php-ve-html-iliskisi-erisim"></a>
 
