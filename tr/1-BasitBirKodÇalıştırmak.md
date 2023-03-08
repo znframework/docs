@@ -20,7 +20,7 @@ Projects/Frontend/Controllers/Home.php
 ```
 
 ```php
-namespace Project/Controllers
+namespace Project\Controllers
 
 class Home extends Controller
 {
