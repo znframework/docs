@@ -97,5 +97,5 @@ Erişmek için aşağıdaki bağlantıyı kullanın.
 localhost/Contact
 ```
 
-**Note**
-Bir kontrolcünün ön tanımlı açlış yöntemi <b>main</b> olmasından dolayı adres çubuğunda belirtilmesine gerek yoktur.
+> **Not**
+> Bir kontrolcünün ön tanımlı açlış yöntemi <b>main</b> olmasından dolayı adres çubuğunda belirtilmesine gerek yoktur.
