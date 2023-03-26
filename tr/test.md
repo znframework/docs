@@ -1,17 +1,8 @@
 <div style="margin-top:-20px; padding-left:20px; font-family: 'Play', sans-serif;">
                                 
-    <h2 style="font-family: 'Play', sans-serif;"><a href="#">İsteklerin Kontrol Edilmesi</a></h2><br>
-    <div id="fe971ed3c9b4d45975a5223d4c682e36" style="margin-bottom:-10px;"></div>
-                                    <div class="alert alert-dismissible text-center" style="margin-bottom:10px; border: solid 1px #00bfff4a; background-color:#83d2ff0a; color:#738b9cf5">
-        <a href="#" class="close" data-dismiss="alert" aria-label="close">&nbsp;&nbsp;&nbsp;&nbsp;×</a>
-        <strong>Bunları biliyor muydunuz?</strong><br>
-        "Konsoldan <span style="font-family: consolas,monospace;color:#a9b932">'php zerocore create-grand-vision'</span> gibi basit bir komutla tüm veritabanı ve tablolarının model dosyasını oluşturabilirsiniz."
-    </div>
-    
-    
-    <p>
-    </p><hr>
-<div class="alert alert-warning" style="background-color:#ffffff; border:1px dashed #2d5173; color:#2c5072; font-family:consolas,monospace; font-size:14px; line-height:1.7; margin-bottom:10px"><iframe allow=";" allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/X1hJ5KWDrtk" width="640"></iframe></div>
+<h2 style="font-family: 'Play', sans-serif;"><a href="#">İsteklerin Kontrol Edilmesi</a></h2><br>
+
+<hr>
 
 <p style="text-align:justify"><a id="Kontrolcüler, kontrolörler, controllers" name="Kontrolcüler, kontrolörler, controllers"></a>Kontrolcüler, kullanıcı isteklerine göre duruma bağlı olarak model ile etkileşime girip&nbsp;ilgili görünümün çağrılması için kullanılan ve Nesne Yönelimli Proglama (OOP) ile tasarlanan sınıflardır. Kullanıcıların URL istekleri, bu sınıfların&nbsp;ilgili yöntemlerine&nbsp;yapılır. Bu URL istekleri bir sınıfa ait yöntemi çalıştırır. Kullanıcıların ilk etkileşime girdiği yapılar kontrolcüler olduğu için anlatıma bu bölüme başlıyoruz.</p>
 
